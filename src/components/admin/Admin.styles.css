@@ -1,0 +1,9 @@
+.container-table {
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #382D55;
+    padding: 18px 18px 9px;
+    border-radius: 10px;
+}

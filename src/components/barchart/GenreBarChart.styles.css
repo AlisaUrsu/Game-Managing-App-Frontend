@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barchart-back-button {
+    height: 2.3rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 7rem;
+    background: linear-gradient(135deg, rgba(111,54,223,1) 0%, rgba(174,85,234,1) 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+    margin-left: 1.6rem;
+}
+
+.barchart-back-button:hover {
+    border-radius: 15px;
+}

@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-form {
+    max-width: 55rem;
+    margin: 2.1rem auto;
+    background-color: #EFEFEF;
+    padding: 40px 40px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.write-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: -2rem;
+}
+.final-buttons {
+    display: flex;
+    justify-content: right;
+    gap: 20px
+}
+
+.final-buttons input {
+    height: 3rem;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.add-game-title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+form label {
+    color: #282c34;
+}
+
+.input-box-title {
+    width: 85%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+form input{
+    outline: none;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+form textarea{
+    width: 100%;
+    outline: none;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 6px 15px;
+    margin-top: 5px;
+    overflow: auto;
+    resize: none;
+}
+
+form textarea:focus{
+    outline: 2px solid #6f36df;
+}
+
+.genres-checkboxes {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.checkbox-label {
+    padding-left: 5px;
+    font-size: 0.84rem;
+    position: relative;
+}
+
+
+.checkbox {
+    height: 15px;
+    background: #e6e6e6;
+    transform: translateY(0.2rem);
+}
+
+.checkbox:checked {
+    background-color: rgba(111,54,223,0.8);
+    appearance: auto;
+}
+
+.title-input{
+    height: 2.2rem;
+}
+
+.description-input {
+    height: 6.5rem;
+}
+
+.release-year-input {
+    height: 2.2rem;
+    width: 70%;
+    display: block;
+}
+
+.year-rating-flex {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.genres-input {
+    height: 4.4rem;
+}
+
+.error {
+    position: absolute;
+    height: 1rem;
+    font-size: 0.7rem;
+    color: #ff4444;
+}
+
+.image-input {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-input button {
+    height: 2rem;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.image-input p {
+    margin-top: 5.7rem;
+    margin-left: 0.8rem;
+}
+
+.image-upload-container {
+    position: relative;
+}
+
+.custom-file-input {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-upload-container img {
+    display: block;
+    width: 180px;
+    object-fit: cover;
+}
+
+
+.image-upload-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.file-input {
+    width: 10rem;
+    border: none;
+}
+

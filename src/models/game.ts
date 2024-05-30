@@ -1,0 +1,16 @@
+export interface Game {
+    _id: string,
+    title: string,
+    developer: string,
+    publisher: string,
+    releaseDate: string,
+    platform: string[],
+    description: string,
+    longDescription: string,
+    genres: string[],
+    rating: number | string,
+    ratingCount: number | string,
+    image: string,
+    createdAt: string,
+    updatedAt: string,
+}

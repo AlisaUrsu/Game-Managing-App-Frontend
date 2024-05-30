@@ -1,0 +1,102 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-form {
+    max-width: 55rem;
+    margin: 8.5rem auto 3.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+    padding: 40px 18px 30px;
+    border-radius: 10px;
+
+}
+
+.add-game-title {
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form label {
+    color: #282c34;
+}
+
+.input-box-title {
+    width: 100%;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input{
+    width: 100%;
+    outline: none;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+form textarea{
+    width: 100%;
+    outline: none;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-top: 5px;
+    overflow: auto;
+    resize: none;
+}
+
+.title-input{
+    height: 2.2rem;
+}
+
+.description-input {
+    height: 7rem;
+}
+
+.release-year-input {
+    height: 2.2rem;
+}
+
+.year-rating-flex {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 4rem;
+}
+
+.genres-input {
+    height: 4.4rem;
+}
+
+.image-input img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 10rem;
+}
+
+.image-input {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-input button {
+    height: 2rem;
+    margin-top: 5.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.image-input p {
+    margin-top: 5.7rem;
+    margin-left: 0.8rem;
+}
