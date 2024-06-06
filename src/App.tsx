@@ -50,7 +50,7 @@ function App() {
       />
       <Routes>
          <Route path="/home" element={<Home loggedInUser={loggedInUser} />} />
-         <Route index element={<Navigate to="/home" />} />
+         <Route index element={<Home loggedInUser={loggedInUser} />} />
          
          <Route 
           path="/add" 
