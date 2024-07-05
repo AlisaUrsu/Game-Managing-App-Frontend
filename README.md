@@ -11,7 +11,7 @@ Upon opening the application, users can view a list of games available. In order
 
 ### Basic User View
 ![image](https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/1993d895-7766-4aeb-bc54-2bbf641822a8)
-- **Personal Game List**: Users can add games from the list to their personal collection, manage game statuses, reviews, and ratings. This feature helps users keep track of their gaming progress. Users can later modify the status, review and rating for a specific entry, or even remove it.
+- **Personal Game List**: Users can add games from the list to their personal collection, manage game statuses, reviews, and ratings; a game's rating is influenced by the ratings submitted users. This feature helps users keep track of their gaming progress. Users can later modify the status, review and rating for a specific entry, or even remove it.
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <img src="https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/4c7f4f77-5051-42f9-857e-6e14e7a9acc3" alt="Add Game Modal" style="width: 20%; margin-bottom: 10px;">
   <img src="https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/ac85c79a-8b7e-46bc-980a-0bfa391a6556" alt="Personal List" style="width: 75%; margin-bottom: 10px;">
@@ -37,5 +37,15 @@ Upon opening the application, users can view a list of games available. In order
 - **Full Access**: Admins can view all information, including games, users, and users' personal game lists.
 - **Management**: Admins have complete control over game and user management, including CRUD operations for games and users.
 
+## Future Enhancements
+### Planned Features
 
-
+- **Filtering**: Users can refine their search by diverese criteria, such as selecting specific genres, setting minimum ratings, or filtering games by supported platforms.
+- **Search**: Utilize a search bar to find games by typing keywords or the exact name of the game.
+- **Pagination**: Control the number of games displayed per page, with options to navigate through multiple pages of search results or filtered lists.
+- **Game Details Page:**
+  - **Information**: Create a dedicated page for each game, displaying detailed information such as description, genre, release date, developer, and more.
+  - **Media Section**: Include multimedia elements like trailers, images, and videos to provide a rich visual experience of the game.
+  - **Reviews and Ratings**: Enable users to view reviews and ratings submitted by other users. This allows for informed decision-making and community interaction around each game.
+ 
+Stay tuned!
