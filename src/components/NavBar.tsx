@@ -15,10 +15,12 @@ interface NavBarProps {
 const NavBar = ({ loggedInUser, onSignUpClicked, onLoginClicked, onLogoutSuccessful }: NavBarProps) => {
     return (
         <Navbar bg="primary" variant="dark" expand="sm" className="navbar" sticky="top">
-            <Container>
-                <Navbar.Collapse id="main-navbar">
-                    <Nav className="ms-auto">
+            <Container className="d-flex justify-content-end">
+           
+                <Navbar.Collapse id="main-navbar" className="navbar-collapse">
+                    <Nav className="navbar-nav">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                    
                         {loggedInUser
                             ? <NavBarLoggedInView user={loggedInUser} onLogoutSuccessful={onLogoutSuccessful} />
                             : <NavBarLoggedOutView onLoginClicked={onLoginClicked} onSignUpClicked={onSignUpClicked} />
@@ -29,5 +31,6 @@ const NavBar = ({ loggedInUser, onSignUpClicked, onLoginClicked, onLogoutSuccess
         </Navbar>
     );
 }
+
 
 export default NavBar;

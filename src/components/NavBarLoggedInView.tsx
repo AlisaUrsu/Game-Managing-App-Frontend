@@ -24,9 +24,9 @@ const NavBarLoggedInView = ({ user, onLogoutSuccessful }: NavBarLoggedInViewProp
         <>
             <Nav.Link as={Link} to="/your-list">Your List</Nav.Link>
             <Navbar.Text className="me-2">
-                Signed in as: {user.username}
+                <div className="signed-in-text">Signed in as: {user.username}</div>
             </Navbar.Text>
-            <Button onClick={logout}>Log out</Button>
+            <Button className="signup-button" onClick={logout}>Log out</Button>
         </>
     );
 }

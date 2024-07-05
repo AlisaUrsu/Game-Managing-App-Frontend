@@ -271,6 +271,7 @@ export async function getPlatforms(): Promise<string[]> {
 
 export async function getChartData(): Promise<{ [genre: string]: number }> {
     const response = await fetchData("/api/games/chart-data", {method: "GET"});
+    console.log("a");
     return response.json();
 }
 

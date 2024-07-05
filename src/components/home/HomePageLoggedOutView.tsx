@@ -63,7 +63,10 @@ const HomePageLoggedOutView = () => {
 
     return (
         <>
-            <div>To see more functionalities please log in.</div>
+            <div className="message-container">
+            <h1>Welcome to the Game Explorer</h1>
+            <p>Explore our extensive library of games! To access additional features such as personalized lists, ratings, and recommendations, please log in or sign up.</p>
+            </div>
             <div className="containerGame">
             {gamesLoading ? ( // Check if games are loading
         <Box display="flex" justifyContent="center" alignItems="center" height="80vh">

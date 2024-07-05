@@ -34,6 +34,7 @@ export const GenreLineChart = () => {
             data: {
                 labels,
                 datasets: [{
+                    label: "Games Count by Genres",
                     data: counts,
                     backgroundColor: 'rgba(96,213,228,1)',
                     borderColor: 'rgba(96,213,228,1)',
