@@ -18,5 +18,24 @@ Upon opening the application, users can view a list of games available. In order
 </div>
 
 - **Genre Chart**: Visual representation of the number of games per genre.
+![image](https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/eaf69fd9-9a09-4330-a2ac-90b777c712eb)
+
+### Manager View
+![image](https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/f0758515-25e0-460d-a89d-b6a391dfc6f3)
+- **Game Management**: Managers have additional privileges to add, delete, or update game entries.
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <img src="https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/3ff4a0e6-0dbd-49ca-971e-fdb1335145eb" alt="Add Game Page" style="width: 45%; margin-bottom: 10px;">
+  <img src="https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/afcca918-6a67-4a6c-9097-31b55c80bb81" alt="Add Game Page" style="width: 45%; margin-bottom: 10px;">
+</div>
+
+*Redesign coming later*
+- **Personal Game List And Genre Chart**: Similar to basic users, managers can maintain their personal game lists and visualize the genre chart.
+
+### Admin View
+![image](https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/01a5028f-41c3-45ed-beca-6cf7d910fcdc)
+![image](https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/eea60433-79fb-43c2-b38a-34d7b5770ae9)
+- **Full Access**: Admins can view all information, including games, users, and users' personal game lists.
+- **Management**: Admins have complete control over game and user management, including CRUD operations for games and users.
+
 
 
