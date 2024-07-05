@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+# Game Managing App Frontend
+Welcome to the frontend repository for the Game Managing MERN application. This application provides a user-friendly interface for managing and exploring games, tailored for different user roles: basic, manager, and admin.
+## Screenshots
+### Logged out view
+![image](https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/7a3eb9ac-82f9-475e-99d9-a73f94b66d9c)
+Upon opening the application, users can view a list of games available. In order to access more functionalities the user has to login into his account or register.
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <img src="https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/0bebbefb-99f8-49bc-b615-f0896cbc7522" alt="Login or Register view" style="width: 45%; margin-bottom: 10px;">
+  <img src="https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/1ba4f89d-066f-47b4-b387-97649c5b5eeb" alt="Login or Register view" style="width: 45%; margin-bottom: 10px;">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Basic User View
+![image](https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/1993d895-7766-4aeb-bc54-2bbf641822a8)
+- **Personal Game List**: Users can add games from the list to their personal collection, manage game statuses, reviews, and ratings. This feature helps users keep track of their gaming progress. Users can later modify the status, review and rating for a specific entry, or even remove it.
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <img src="https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/4c7f4f77-5051-42f9-857e-6e14e7a9acc3" alt="Add Game Modal" style="width: 20%; margin-bottom: 10px;">
+  <img src="https://github.com/AlisaUrsu/Game-Managing-App-Frontend/assets/115451781/ac85c79a-8b7e-46bc-980a-0bfa391a6556" alt="Personal List" style="width: 75%; margin-bottom: 10px;">
+</div>
 
-## Available Scripts
+- **Genre Chart**: Visual representation of the number of games per genre.
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
